@@ -1,0 +1,217 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+:root {
+    --black-color-txt: black;
+    --gray-color-txt: #828282;
+    --gilory-b: 'Gilroy-Bold', sans-serif;
+    --gilory-m: 'Gilroy-Medium', sans-serif;
+    --m-size-txt: 18px;
+    --lg-size-txt: 47px;
+}
+
+body {
+    width: 1445px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    margin: auto;
+    width: 942px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 155px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: var(--gilory-b);
+}
+
+.header__link {
+    font-size: var(--m-size-txt);
+    line-height: 22px;
+    color: var(--gray-color-txt);
+}
+
+.header__link:first-child {
+    color: var(--black-color-txt);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title {
+    width: 123px;
+    font-size: var(--lg-size-txt);
+    font-family: var(--gilory-b);
+}
+
+.card__text {
+    width: 156px;
+    font-size: var(--m-size-txt);
+    font-family: var(--gilory-m);
+}
+
+.card__button {
+    width: 65px;
+    font-family: var(--gilory-m);
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.about_me {
+    margin-top: 104px;
+    background-color: #F6F6F6;
+}
+
+.about_me__title {
+    padding-top: 120px;
+    text-align: center;
+    font-family: var(--gilory-b);
+    font-size: 34px;
+}
+
+.about_me__text {
+    width: 485px;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 107px;
+    text-align: center;
+    font-family: var(--gilory-m);
+    font-size: var(--m-size-txt);
+}
+
+.skills {
+    display: flex;
+    gap: 90px;
+}
+
+.skills__title {
+    margin-top: 90px;
+    text-align: center;
+    font-family: var(--gilory-b);
+    font-size: 34px;
+}
+
+.skills__text {
+    margin-top: 70px;
+    margin-bottom: 84px;
+    font-family: var(--gilory-m);
+    font-size: var(--m-size-txt);
+    text-align: center;
+}
+
+.card__skills {
+    display: inline;
+    text-align: center;
+    width: 166px;
+    height: 206px;
+}
+
+.skills__img {
+    background: url('../img/Vector.png') no-repeat;
+    background-size: cover;
+}
+
+.card__skills__text {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-family: var(--gilory-b);
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--gray-color-txt);
+}
+
+.stars {
+    width: 164px;
+    height: 26px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+.card__portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+}
+
+.portfolio__title {
+    padding-top: 112px;
+    padding-bottom: 47px;
+    font-family: var(--gilory-b);
+    font-size: 34px;
+    text-align: center;
+}
+
+.portfolio__link {
+    margin-bottom: 100px;
+    font-family: var(--gilory-m);
+    font-size: var(--m-size-txt);
+    text-decoration: underline solid;
+}
+
+.contacts__title {
+    margin-top: 114px;
+    text-align: center;
+    font-family: var(--gilory-b);
+    font-size: 34px;
+}
+
+.contacts__text {
+    width: 275px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-family: var(--gilory-m);
+    font-size: var(--m-size-txt);
+}
+
+.card__btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.send__btn {
+    width: 180px;
+    height: 42px;
+    margin-top: 30px;
+    font-size: var(--m-size-txt);
+    font-family: var(--gilory-b);
+    border-radius: 38px;
+    background-color: #070707;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.follow {
+    margin-top: 75px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.follow__text {
+    width: 240px;
+    margin: 0 auto;
+    color: #828282;
+    text-align: center;
+    font-family: var(--gilory-m);
+    font-size: 14px;
+}
